@@ -3,23 +3,22 @@ const Def = require('./default')
 
 function home () {
     return (
-      <Def>
-          <main>
-              <h1>REST-rant</h1>
-              <div>
-                <img src= "/images/lime.jpg.jpg" alt="Pancake Image" />
-                <div>
-                Photo by <a href="https://unsplash.com/@joe_27?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Abraham</a> on <a href="https://unsplash.com/s/photos/free-food-images?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-                </div>
-              </div>
-              <a href="/places">
+        <Def>
+        <main>
+    <h1>Res Rant</h1>
+    <div>
+      <img src="/images/chia-shake.jpg" alt="Chia Fruit Shake" />
+      <div>
+        Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on <a href="UNSPLASH_LINK">Unsplash</a>
+      </div>
+    </div>
+    <a href="/places">
         <button className="btn-primary">Places Page</button>
     </a>
-          </main>
-      </Def>
-    )
-  }
+</main>
 
-  module.exports = home
-  
+
+        </Def>
+    )
+}
+module.exports = home
